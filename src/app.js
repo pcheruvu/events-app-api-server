@@ -12,6 +12,7 @@ const eventRouter = require('./routes/event');
 const configRouter = require('./routes/config');
 //changes
 const change='sample change';
+const change='sample change 2';
 const app = express();
 
 app.use(logger('dev'));
