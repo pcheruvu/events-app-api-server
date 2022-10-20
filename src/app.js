@@ -10,7 +10,8 @@ const indexRouter = require('./routes');
 const eventsRouter = require('./routes/events');
 const eventRouter = require('./routes/event');
 const configRouter = require('./routes/config');
-
+//changes
+const change='sample change';
 const app = express();
 
 app.use(logger('dev'));
